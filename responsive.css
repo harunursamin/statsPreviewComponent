@@ -1,0 +1,40 @@
+@media (max-width: 991px) {
+  .content .details {
+    padding: 3rem 2.5rem 2rem 2rem !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .content,
+  .content .wrapper,
+  .content .details {
+    width: 25rem !important;
+    height: fit-content !important;
+    border-radius: 1rem;
+  }
+  main {
+    padding: 2rem;
+  }
+  .wrapper .img,
+  .wrapper .img img,
+  .wrapper .img > .overlay {
+    height: 15rem;
+    border-radius: 1rem 1rem 0 0 !important ;
+  }
+  .content .details {
+    padding: 2rem 2rem 1rem 2rem !important;
+  }
+}
+
+@media (max-width: 401px) {
+  .content,
+  .content .wrapper,
+  .content .details {
+    width: 20rem !important;
+    height: fit-content !important;
+    border-radius: 1rem;
+  }
+  .content .details {
+    padding: 1rem !important;
+  }
+}
