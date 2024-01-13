@@ -5,6 +5,13 @@
 }
 
 @media (max-width: 767px) {
+  * .res-text {
+    font-size: 0.9rem;
+  }
+  .details h1 {
+    font-size: 2rem;
+  }
+
   .content,
   .content .wrapper,
   .content .details {
